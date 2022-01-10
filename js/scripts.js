@@ -15,8 +15,15 @@ function count (string) {
 }
 
 $(document).ready(function() {
+
   let sentence = prompt("Enter your sentence: ");
-  alert(sentence);
-  
-  alert(count(sentence));
+
+  $("#left").click(function() {
+    alert(sentence);
+  });
+
+  $("#right").click(function() {
+    alert(count(sentence));
+  });
+
 })
