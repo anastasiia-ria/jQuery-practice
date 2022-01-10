@@ -5,3 +5,7 @@ function firstLast (string) {
 function reverse (string) {
   return string.split('').reverse().join('');
 }
+
+function reverseFL (string) {
+  return string + reverse(firstLast(string));
+}
