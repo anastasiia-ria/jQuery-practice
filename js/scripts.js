@@ -13,3 +13,10 @@ function reverseFL (string) {
 function count (string) {
   return string.charAt(parseInt(string.length / 2)) + reverseFL(string);
 }
+
+$(document).ready(function() {
+  let sentence = prompt("Enter your sentence: ");
+  alert(sentence);
+  
+  alert(count(sentence));
+})
