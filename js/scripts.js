@@ -9,3 +9,7 @@ function reverse (string) {
 function reverseFL (string) {
   return string + reverse(firstLast(string));
 }
+
+function count (string) {
+  return string.charAt(parseInt(string.length / 2)) + reverseFL(string);
+}
