@@ -22,7 +22,7 @@ $(document).ready(function() {
   });
 
   $("button#stop").click(function() {
-    $("ul#user").prepend("<li>Stop copying me!</li>");
+    $("ul#user").prepend("<li>St op copying me!</li>");
     $("ul#webpage").prepend("<li>Pardon me. I meant no offense.</li>");
     $("ul#user").children("li").first().click(function() {
       $(this).remove();

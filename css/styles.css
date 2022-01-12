@@ -26,38 +26,70 @@ input {
 #letter {
   background-color: #fff9ed;
   color: #a59e96;
-  width: 100%;
+  width: 700px;
+  margin: auto;
   display: flex;
   justify-content: space-around;
+  align-items: flex-end;
   flex-wrap: wrap;
-  height: 500px;
+  border: 0.75em solid transparent;
+  border-image: 16 repeating-linear-gradient(-45deg, #fd624c 0, #fd624c 0.75em, transparent 0, transparent 1.5em, #393e76 0, #393e76 2.25em, transparent 0, transparent 3em); 
+  position: relative;
 }
 
 #letter h2 {
   width: 100%;
   text-align: center;
   text-transform: uppercase;
+  font-weight: normal;
+  padding: 30px;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+#letter p {
+  margin-bottom: 0;
 }
 
 #left, #right {
   width: 50%;
-  padding: 10%;
+  padding: 5% 5% 0;
+  margin-bottom: 5%;
+  height: 100%;
+  display: block;
 }
 
 #left {
   border-right: #a59e96 solid 1px;
-  border-bottom: #a59e96 solid 1px;
 }
 
 #right li {
   list-style: none;
-  text-decoration: underline;
+  border-bottom: #a59e96 solid 2px;
   width: 100%;
   display: block;
   height: 30px;
+  padding: 5px 5px 2px;
+  font-size: 100%;
+}
+
+#letter img {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+}
+.cursive {
+  font-family: 'Oooh Baby', cursive;
+  font-size: 17px;
+}
+
+.bottom-border {
+  margin-top: 100px;
+  border-bottom: #a59e96 solid 2px;
+  width: 100%;
 }
 
 #right ul {
-  margin: 0;
-  width: 100%;
+  padding: 0;
+  width: 100%
 }
