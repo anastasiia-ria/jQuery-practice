@@ -10,25 +10,35 @@
   background-color: red;
 }
 
+h5 {
+  text-align: center;
+  margin: 30px 0 10px;
+}
+
 form {
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 400px;
   flex-direction: column;
 }
 
 input {
   padding: 7px;
   margin: 7px;
+  width: 400px;
+}
+
+#letter-form button {
+  border: black 1px solid;
 }
 
 #letter {
   background-color: #fff9ed;
   color: #a59e96;
   width: 700px;
-  margin: auto;
-  display: flex;
+  margin: 30px auto;
+  display: none;
   justify-content: space-around;
   align-items: flex-end;
   flex-wrap: wrap;

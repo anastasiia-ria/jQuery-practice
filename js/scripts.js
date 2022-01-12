@@ -46,7 +46,7 @@ $(document).ready(function() {
     $(".zipcode").text(zipcodeInput);
     $(".country").text(countryInput);
 
-    $("#letter").show();
+    $('#letter').css('display', 'flex');
   });
 
 });
