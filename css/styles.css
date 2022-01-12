@@ -9,3 +9,55 @@
 .red-background {
   background-color: red;
 }
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  flex-direction: column;
+}
+
+input {
+  padding: 7px;
+  margin: 7px;
+}
+
+#letter {
+  background-color: #fff9ed;
+  color: #a59e96;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 500px;
+}
+
+#letter h2 {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#left, #right {
+  width: 50%;
+  padding: 10%;
+}
+
+#left {
+  border-right: #a59e96 solid 1px;
+  border-bottom: #a59e96 solid 1px;
+}
+
+#right li {
+  list-style: none;
+  text-decoration: underline;
+  width: 100%;
+  display: block;
+  height: 30px;
+}
+
+#right ul {
+  margin: 0;
+  width: 100%;
+}

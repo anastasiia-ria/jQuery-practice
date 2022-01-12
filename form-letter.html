@@ -8,6 +8,33 @@
   <title>Letter From</title>
 </head>
 <body>
-  
+  <form id="letter-form">
+    <input type="text" placeholder="Name" id="name">
+    <input type="text" placeholder="Street" id="street">
+    <input type="text" placeholder="City" id="city">
+    <input type="text" placeholder="Zipcode" id="zipcode">
+    <input type="text" placeholder="Country" id="country">
+    <button type="submit" class="btn">Show me the letter!</button>
+  </form>
+
+  <div id="letter">
+    <h2>Postcard</h2>
+    <div id="left">
+      <p>
+        Dear <span class="name"></span>,<br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem eius nam blanditiis, doloremque consequuntur, eveniet ea laudantium ex repudiandae corrupti cupiditate totam reiciendis beatae tempore voluptate ipsum quasi nostrum unde!
+      </p>
+      <p>from:<br><span class="handwriting">Your dearest friend</span></p>
+    </div>
+    <div id="right">
+      <p>to:</p>
+      <ul>
+        <li class="name"></li>
+        <li class="street"></li>
+        <li class="city"></li>
+        <li class="zipcode"></li>
+        <li class="country"></li>
+      </ul>
+    </div>
+  </div>
 </body>
 </html>

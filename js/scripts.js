@@ -32,4 +32,21 @@ $(document).ready(function() {
     });
   });
 
+  $("#letter-form").submit(function(event) {
+    event.preventDefault();
+    const nameInput = $("input#name").val();
+    const streetInput = $("input#street").val();
+    const cityInput= $("input#city").val();
+    const zipcodeInput = $("input#zipcode").val();
+    const countryInput = $("input#country").val();
+
+    $(".name").text(nameInput);
+    $(".street").text(streetInput);
+    $(".city").text(cityInput);
+    $(".zipcode").text(zipcodeInput);
+    $(".country").text(countryInput);
+
+    $("#letter").show();
+  });
+
 });
