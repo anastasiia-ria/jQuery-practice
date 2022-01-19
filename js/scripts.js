@@ -49,4 +49,10 @@ $(document).ready(function() {
     $('#letter').css('display', 'flex');
   });
 
+  $("*", document.body).click(function (event) {
+    event.stopPropagation();
+    var domElement = $(this).get(0);
+    alert("This is a " + domElement.nodeName);
+  });
+
 });
